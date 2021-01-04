@@ -1,63 +1,56 @@
-title:            मानसी भोंसले
-tagline:          Mansi's Life Beliefs
-description:      # todo
-canonical:        https://mansi-life-beliefs.github.io
-
-# Owner/author information
+---
+title: मानसी भोंसले
+timezone: Asia/Calcutta
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: Mansi's Life Beliefs
+description: 
+canonical: https://mansi-life-beliefs.github.io
 owner:
-  name:           Mansi Bhonsle
-  avatar:         avatar.png  #todo
-  bio:            ""  #todo
-  email:          mansi.bhonsle@gmail.com
-  # twitter:        twnsndco
-  # github:         rohan1chaudhari
-  # instagram:      rohan1chaudhari
-  location:       "Pune, India"
-  # Plug in your disqus shortname!
-
+  name: Mansi Bhonsle
+  avatar: avatar.png
+  bio: ''
+  email: mansi.bhonsle@gmail.com
+  location: Pune, India
 tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
-
-# Open Graph customization
+  standards: HTML, SCSS, Jekyll
+  software: git
 opengraph:
-  locale:           hi_IN
-
-# Links to include in top navigation
-# For external links add external: true
+  locale: hi_IN
 links:
-  - title: About
-    url: /about
-  # - title: Github
-  #   url: https://github.com/rohan1chaudhari
-  #   external: true
-
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Calcutta
-future:      true
+- title: About
+  url: "/about"
+future: true
 highlighter: pygments
-markdown:    kramdown
-
+markdown: kramdown
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-
   coderay:
-    coderay_line_numbers:
+    coderay_line_numbers: 
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
-
 sass:
-    style: :compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+  style: :compressed
+permalink: "/:categories/:title"
+include:
+- ".htaccess"
+exclude:
+- lib
+- config.rb
+- Capfile
+- config
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
