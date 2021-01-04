@@ -1,18 +1,18 @@
 title:            मानसी भोंसले
-tagline:          Personal Website.
-description:      Computer Vision and Natural Language Processing
-canonical: http://jekyll.gtat.me
+tagline:          Mansi's Life Beliefs
+description:      # todo
+canonical:        https://mansi-life-beliefs.github.io
 
 # Owner/author information
 owner:
-  name:           Rohan Chaudhari
-  avatar:         avatar.png
-  bio:            "Data Scientist"
-  email:          chrohan95@gmail.com
-  twitter:        twnsndco
-  github:         rohan1chaudhari
-  instagram:      rohan1chaudhari
-  location:       "Paris, France"
+  name:           Mansi Bhonsale
+  avatar:         avatar.png  #todo
+  bio:            ""
+  email:          # todo
+  # twitter:        twnsndco
+  # github:         rohan1chaudhari
+  # instagram:      rohan1chaudhari
+  location:       "Pune, India"
   # Plug in your disqus shortname!
 
 tools:
@@ -21,20 +21,20 @@ tools:
 
 # Open Graph customization
 opengraph:
-  locale:           en_US
+  locale:           hi_IN
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about
-  - title: Github
-    url: https://github.com/rohan1chaudhari
-    external: true
+  # - title: Github
+  #   url: https://github.com/rohan1chaudhari
+  #   external: true
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Paris
+timezone:    Asia/Calcutta
 future:      true
 highlighter: pygments
 markdown:    kramdown
